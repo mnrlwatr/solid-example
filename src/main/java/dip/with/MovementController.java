@@ -10,6 +10,12 @@ public class MovementController {
     private Movable jumperEnemy;
     private Movable flyEnemy;
 
+    public MovementController(Movable groundEnemy, Movable jumperEnemy, Movable flyEnemy) {
+        this.groundEnemy = groundEnemy;
+        this.jumperEnemy = jumperEnemy;
+        this.flyEnemy = flyEnemy;
+    }
+
     public void moveAll () {
         groundEnemy.move();
         jumperEnemy.move();
