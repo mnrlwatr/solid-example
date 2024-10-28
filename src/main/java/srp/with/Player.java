@@ -5,7 +5,7 @@ import srp.with.controller.AttackController;
 import srp.with.controller.MoveController;
 import srp.with.controller.PickupController;
 
-public class Player implements MonoBehaviour {
+public class Player implements Behaviour {
 
     private int health;
     private Item item;
