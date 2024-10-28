@@ -1,6 +1,6 @@
 package srp.with;
 
-public interface MonoBehaviour {
+public interface Behaviour {
     void attack();
     void move();
     void pickItem();
