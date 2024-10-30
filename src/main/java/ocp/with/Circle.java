@@ -9,7 +9,7 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @ToString
-public class Circle implements AreaCalculator{
+public class Circle implements Shape {
     private Double radius;
 
     @Override

@@ -1,5 +1,7 @@
 package ocp.with;
 
-public interface AreaCalculator {
-    double calculateArea();
+public class AreaCalculator {
+    public Double calculateShapeArea(Shape shape) {
+        return shape.calculateArea();
+    }
 }

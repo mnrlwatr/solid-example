@@ -9,7 +9,7 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @ToString
-public class Rectangle implements AreaCalculator {
+public class Rectangle implements Shape {
     private Double length;
     private Double width;
 
