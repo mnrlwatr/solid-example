@@ -6,6 +6,7 @@ public class AttackController {
     private double calculateDamage (){
         double finalDamage = 0.0d;
         // finalDamage = weapon.getDamage;
+        // add critical damage if its available and so on
         return finalDamage;
     }
 

@@ -5,7 +5,7 @@ import srp.with.controller.AttackController;
 import srp.with.controller.MoveController;
 import srp.with.controller.PickupController;
 
-public class Player implements Behaviour {
+public class Player {
 
     private int health;
     private Item item;
@@ -20,17 +20,14 @@ public class Player implements Behaviour {
         this.pickupController = pickupController;
     }
 
-    @Override
     public void attack() {
         attackController.attack();
     }
 
-    @Override
     public void move() {
         moveController.move();
     }
 
-    @Override
     public void pickItem() {
         pickupController.pickItem();
     }
