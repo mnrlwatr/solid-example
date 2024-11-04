@@ -3,13 +3,13 @@ package lsp.ex2.with;
 import java.math.BigDecimal;
 
 public class BankingAppWithdrawalService {
-    private Account account;
+    private WithdrawableAccount withdrawableAccount;
 
-    public BankingAppWithdrawalService(Account account) {
-        this.account = account;
+    public BankingAppWithdrawalService(WithdrawableAccount withdrawableAccount) {
+        this.withdrawableAccount = withdrawableAccount;
     }
 
     public void withdraw(BigDecimal amount) {
-        account.withdraw(amount);
+        withdrawableAccount.withdraw(amount);
     }
 }

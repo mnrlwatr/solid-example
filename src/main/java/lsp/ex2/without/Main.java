@@ -1,4 +1,4 @@
-package lsp.ex2.with;
+package lsp.ex2.without;
 
 import java.math.BigDecimal;
 

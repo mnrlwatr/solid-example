@@ -2,7 +2,7 @@ package lsp.ex2.without;
 
 import java.math.BigDecimal;
 
-public class CurrentAccount extends WithdrawableAccount{
+public class CurrentAccount extends Account {
     @Override
     void withdraw(BigDecimal amount) {
         // some logic here
