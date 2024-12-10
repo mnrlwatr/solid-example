@@ -2,12 +2,7 @@ package lsp.CodeSmells;
 
 import java.io.File;
 
-public class ExceptionRule implements FileSystem {
-    @Override
-    public File[] listFiles(String path) {
-        return new File[0];
-    }
-
+public class ExceptionRule extends Document {
     /*
 Метод не должен выбрасывать исключения, которые не
 свойственны базовому методу. Типы исключений в переопределённом методе должны совпадать
@@ -16,8 +11,9 @@ public class ExceptionRule implements FileSystem {
 Поэтому неожиданное исключение, выброшенное подклассом, может проскочить сквозь обработчики клиентского
 кода и обрушить программу.
 */
-    @Override
-    public void deleteFile(String path) throws NullPointerException {
 
+    @Override
+    void save() throws NullPointerException {
+        // some logic
     }
 }
