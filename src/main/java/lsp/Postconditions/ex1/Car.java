@@ -1,4 +1,4 @@
-package lsp.Postconditions;
+package lsp.Postconditions.ex1;
 /*
 A postcondition is a condition that should be met after a method is executed.
 Let’s look at an example:

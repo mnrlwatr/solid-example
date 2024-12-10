@@ -1,4 +1,4 @@
-package lsp.Postconditions;
+package lsp.Postconditions.ex1;
 /*
 Here, the brake method of Car specifies a postcondition that the Car‘s speed must reduce at the end of the method execution.  The subtype can strengthen (but not weaken) the postcondition for a method it overrides.
 When a subtype strengthens the postcondition, it provides more than the supertype method.
