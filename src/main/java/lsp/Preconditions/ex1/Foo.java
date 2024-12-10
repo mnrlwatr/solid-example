@@ -1,4 +1,4 @@
-package lsp.Preconditions;
+package lsp.Preconditions.ex1;
 /*
 A precondition should be satisfied before a method can be executed.
 Let’s look at an example of a precondition concerning parameter values:

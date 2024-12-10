@@ -1,4 +1,4 @@
-package lsp.Preconditions;
+package lsp.Preconditions.ex1;
 /*
 Here, the precondition for the doStuff method states that the num parameter value must be between 1 and 5.
 We have enforced this precondition with a range check inside the method. A subtype can weaken (but not strengthen) the precondition for a method it overrides.
